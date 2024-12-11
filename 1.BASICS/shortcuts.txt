@@ -1,0 +1,6 @@
+clg --> console.log()
+log --> console.log()
+
+typeof num --> prints the type of that variable 'num'
+
+NaN -> Not a Number

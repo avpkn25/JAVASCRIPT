@@ -1,0 +1,42 @@
+variables
+
+const -> variable can't maniulate further. when we declare a variable using const, we can change the value of that further.
+var -> variable can maniulate further
+let -> variable can maniulate further
+-> can't write reserved keywords as variables
+-> can't use space in between variables
+-> can't use numbers in starting of the variables
+-> can't use '-' symbol in between variables. js conpiler thinks that the second value is seperating from the first value which is not valid thing.
+-> can use _, $ in starting of the variable decleration
+-> can use _ in between the variables
+
+Naming conventions for variables
+use camelCase naming convension to look good js code
+
+Primitive types
+1. numbers
+2. boolean -> true | false
+=> number + undefined -> NaN
+falsy values
+    -> false
+    -> null
+    -> 0
+    -> -0
+    -> NaN
+    -> '', "", ``, (empty quotes)
+other all are true values
+
+difference between null and undefined?
+null is set by developers and undefined is set by js compiler
+
+Comparison Operators
+-> relational operators
+    > greater than
+    < less than
+    >= greater than or equal to
+    <= less than or equal to
+-> Equality operators
+    === Strict equality (type + value)
+    !== String non-equality (type + value)
+    == loose equality 
+    != not equality 
