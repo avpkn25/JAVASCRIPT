@@ -134,3 +134,79 @@
 // console.log(firstFavNumb == secondFavNumb);
 // console.log(firstFavNumb !== secondFavNumb);
 // console.log(firstFavNumb != secondFavNumb);
+
+// Strings
+// let firstName = `Praveen`;
+// let secondName = "Kumar";
+// let fullName = firstName + secondName;
+// console.log(fullName);
+// 1. concatenation
+//let fullName = firstName.concat(secondName);
+// console.log(fullName);
+// 2. appending
+// firstName += secondName
+// console.log(firstName);
+// 3. length
+// console.log(firstName.length); // length of firstname
+// 4. cases
+// console.log(firstName.toLowerCase());
+// console.log(secondName.toUpperCase());
+// 5. Slicing
+// console.log(firstName.slice(1,5)); // rave
+// 6. Split & Join
+// console.log(firstName.split("").join("-"));
+// 7. Includes
+// console.log(firstName.includes("P")); // case sensitive
+// 8. Trim
+// let newname = '            chiro           '
+// console.log(newname.trim());
+
+// use of ``
+// let desc = `this is a
+// random Text
+// `
+// console.log(desc)
+// let firstName = 'Praveen'
+// let lastName = 'Kumar'
+// let fullName = `${firstName} ${lastName} Naidu`;
+// console.log(fullName);
+
+// Challenge - 5
+// 1. Create variable name (favActorFirstName) & store your fav Actor name.
+// 2. Create variable name (favActorLastName) & store your last name of (FA).
+// 3. Create variable name (fullName) & Concatenate (favActorFirstName, favActorLastName)
+// 4. Create variable name (uppercase) & CAPITALIZE your fav Actor name.
+// 5. Create a variable name (message) & store `My favorite Actor Is (favActorName) & say something about your fav actor` name should be in UPPERCASE.
+// 6. Now append this message to the (message variable) 'his best show is Silicon Valley'.
+// 7. Now Log your Message
+// answer
+// let favActorFirstName = "Johnny";
+// let favActorLastName = "Depp";
+// let fullName = favActorFirstName + " " + favActorLastName;
+// let UPPERCASE = fullName.toUpperCase();
+// let message = `My favorite Actor Is ${UPPERCASE} & He is Super actor.`;
+// message += " his best show is pirates of caribbean.";
+// console.log(message);
+
+// Type Conversions
+// String ---> number
+// let money = "50";
+// console.log(money + " " + typeof money);
+// money = parseInt(money);
+// console.log(money + " " + typeof money);
+// money = +money;
+// console.log(money + " " + typeof money);
+// money = Number(money);
+// console.log(money + " " + typeof money);
+// Number ---> String
+// let money = 50;
+// console.log(money + " " + typeof money);
+// money = money.toString();
+// console.log(money + " " + typeof money);
+// money = String(money);
+// console.log(money + " " + typeof money);
+// String ---> Decimal
+// let money = "50.245";
+// console.log(money + " " + typeof money);
+// money = parseFloat(money);
+// console.log(money + " " + typeof money);

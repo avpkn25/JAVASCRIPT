@@ -40,3 +40,6 @@ Comparison Operators
     !== String non-equality (type + value)
     == loose equality 
     != not equality 
+
+Strings
+we can use '' or "" or ``
