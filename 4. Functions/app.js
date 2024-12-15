@@ -76,3 +76,58 @@
 //   console.log(value);
 // }
 // showCallFunc(fn);
+
+// Scopes
+// let textMess = "hi"; // global
+// console.log(textMess);
+
+// function showMess() {
+//   let textMess = "hello"; // local
+//   console.log(textMess);
+// }
+// showMess();
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i); // i variable i local variable
+// }
+
+// Methods
+// function greet() {
+//   return `Hello, my name is ${person.name} & I am ${person.age} years old`;
+// }
+// const person = {
+//   name: "John",
+//   age: 30,
+//   greet,
+// };
+// console.log(person.greet());
+
+// const person = {
+//   name: "Praveen",
+//   age: 20,
+//   greet: function () {
+//     return `Hello, my name is ${person.name} & I am ${person.age} years old`;
+//   },
+// };
+// console.log(person.greet());
+
+// JSON - JavaScript Object Notation
+// const person = {
+//   name: "Praveen",
+//   age: 20,
+//   email: "praveen@gmail.com",
+//   isSubscribed: true,
+//   hobbies: ["Reading", "Running", "Cooking"],
+//   address: {
+//     city: "New York",
+//     isFamous: true,
+//   },
+// };
+
+// JSON.stringify() converts JSON to String
+// const jsonStr = JSON.stringify(person);
+// console.log(JSON.stringify(person));
+//JSON.parse() converts String to JSON
+// const parsed = JSON.parse(jsonStr);
+// console.log(parsed);
+

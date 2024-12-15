@@ -1,0 +1,11 @@
+{
+    "name": "Praveen",
+    "age": 20,
+    "email": "praveen@gmail.com",
+    "isSubscribed": true,
+    "hobbies": ["Reading", "Running", "Cooking"],
+    "address": {
+        "city": "New York",
+        "isFamous": true
+    }
+}
