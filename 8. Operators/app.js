@@ -72,3 +72,38 @@
 //   console.log(items);
 // }
 // data(1, 2, 3, 4, 5, 4, 6, 7, 6, 54, 3, 3);
+
+// Ternary Operators ' ? : '
+
+// using if-else
+
+// let password = 8;
+// function passwordChecker(ps) {
+//   if (ps === 8) {
+//     console.log(`Strong Password`);
+//   } else {
+//     console.log(`Password should be 8 characters.`);
+//   }
+// }
+// passwordChecker(password);
+
+// using ternary operators
+
+// let password = 6;
+// function passwordChecker(ps) {
+//   console.log(
+//     ps === 8 ? `Strong password` : `Password should be 8 characters.`
+//   );
+// }
+// passwordChecker(password);
+
+// const age = 25;
+// const isAdult = age >= 18 ? `Adult` : `Not an Adult`;
+// console.log(isAdult);
+
+// CHallenge - 3
+// If the person have money they can "buy products".
+// If the person don't have any money "They should bring money".
+// answer
+// let money = true;
+// console.log(money ? `Can Buy Products` : `Should Bring Money`);
