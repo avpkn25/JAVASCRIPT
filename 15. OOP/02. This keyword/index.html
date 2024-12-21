@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>This keyword</h1>
+    <p>The JavaScript this keyword refers to the object it belongs to.</p>
+    <p>It has different values depending on where it is used</p>
+
+    <br>
+    <p>In a method -> this refers to the owner object.</p>
+    <p>Alone -> this refers to the global object.</p>
+    <p>In a function -> this refers to the global object.</p>
+    <p>In a arrow function -> this refers to the global object.</p>
+
+    <br>
+
+    <h3>This in a Method</h3>
+    <p>In an object method, this refers to the "owner" of the method.</p>
+    <p>fullName : function () { return this.firstName + " " + this.lastName; }</p>
+
+    <br>
+    <h3>this Alone</h3>
+    <p>When used alone, the owner is the Global object, so this refets to the Global object.</p>
+    <p>let x = this; </p>
+
+    <br>
+    <h3>this in a Function (Default)</h3>
+    <p>In a JavaScript function, the owner of the function is the default binding for this.</p>
+    <p>So, in a function, this refers to the Global object [object Window].</p>
+    <p>function myFunction() { return this; }</p>
+
+    <br>
+    <h3>this in a Arrow Function</h3>
+    <p>In a JavaScript function, the owner of the function is the default binding for this.</p>
+    <p>So, in a arrow function, this refers to the Global object [object Window].</p>
+    <p> () => { return this; }</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
