@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    <h1>Promise</h1>
+    <p>A promise is an object representing the eventual completion or failure of asynchronous operation</p>
+
+    <h4>new Promise()</h4>
+    <p>A JavaScript Promise object contains both the producing code and calls to the consuming code.</p>
+    <p>Ir can be used to deal with Asynchronous operation in JavaScript.</p>
+
+    <h4>3 States</h4>
+    <ul>
+        <li>Pending - Initial State, Not yet fulfilled or Rejected</li>
+        <li>Fulfilled / Resolved - Promise Completed</li>
+        <li>Rejected - Promise Failed</li>
+    </ul>
+
+    <h4>Promise</h4>
+    <h5>Resolved</h5>
+    <ul>
+        <li>.then()</li>
+        <li>.finally()</li>
+    </ul>
+    <h5>Rejected</h5>
+    <ul>
+        <li>.then()</li>
+        <li>.catch()</li>
+        <li>.finally()</li>
+    </ul>
+
+    <h3>Syntax</h3>
+    <p>new Promise ( (resolve,reject) => {} )</p>
+    <p>new Promise ( (resolve,reject) => {
+        // Async Operations
+        resolve(value)
+        reject(Error)
+    } )</p>
+
+    <h3>.then()</h3>
+    <p>.then() is a method used to handle the successful outcome of a Promise in JavaScript.</p>
+    <p>it takes 2 arguments: (onFilled,onRejected)</p>
+
+    <h3>.catch()</h3>
+    <p>The catch() method returns a Promise & deals with rejected case only.</p>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
